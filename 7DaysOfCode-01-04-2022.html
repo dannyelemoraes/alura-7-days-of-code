@@ -1,0 +1,30 @@
+<script>
+
+    var area = prompt("Por qual área da programação você quer seguir? Digite: (1) para FRONT-END ou (2) para BACK-END");
+    
+    if(area == 1 ){
+        var tecFront = prompt("Qual tecnologia você quer aprender no FrontEnd? (1) React ou (2) para Vue");
+    }else if(area == 2){
+        var tecBack = prompt("Qual tecnologia você quer aprender no BackEnd? (1) C# ou (2) para Java");
+    }
+    
+    if(area == 1){
+        var resp = prompt("Você deseja: (1) Se especializar FrontEnd ou (2) Se tornar um FullStack?");
+    }else if (area == 2){
+        var resp1 = prompt("Você deseja: (1) Se especializar BackEnd ou (2) Se tornar um FullStack?");
+    }
+
+    var continuar = "OK";    
+    while (continuar == "OK") {
+        var tec = prompt("Qual tecnologia você deseja se especializar ou conhecer?");
+        alert("Que legal você ter escolhido " + tec + "!");
+        continuar = prompt("Tem mais alguma tecnologia que você gostaria de aprender?");
+    }
+
+
+
+
+
+
+
+</script>
